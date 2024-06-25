@@ -3,9 +3,6 @@
     "builds": [
         {"src": "scrapperAPI.py", "use": "@vercel/python"}
     ],
-    "routes": [
-        {"src": "/(.*)", "dest": "scrapperAPI.py"}
-    ],
     "headers": [
     {
       "source": "/(.*)",
